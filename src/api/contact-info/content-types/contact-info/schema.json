@@ -25,14 +25,12 @@
       "required": true
     },
     "latitude": {
-      "type": "decimal",
-      "required": false,
-      "args": [10, 7]
+      "type": "string",
+      "required": true
     },
     "longitude": {
-      "type": "decimal",
-      "required": false,
-      "args": [10, 7]
+      "type": "string",
+      "required": true
     },
     "socialLinks": {
       "type": "component",

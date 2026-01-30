@@ -55,8 +55,8 @@ export default {
         email: 'info@eventum.com',
         phone: '+7 (495) 123-45-67',
         address: 'Москва, Автозаводская, улица Ленинская Слобода, 19',
-        latitude: 55.708583,
-        longitude: 37.653291,
+        latitude: '55.708583',
+        longitude: '37.653291',
         socialLinks: [
           { platform: 'vk', url: 'https://vk.com/eventum' },
           { platform: 'telegram', url: 'https://t.me/eventum' },
