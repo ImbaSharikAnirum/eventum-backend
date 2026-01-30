@@ -26,12 +26,12 @@
     },
     "latitude": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "args": [10, 7]
     },
     "longitude": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "args": [10, 7]
     },
     "socialLinks": {
