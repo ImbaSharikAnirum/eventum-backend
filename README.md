@@ -1,61 +1,51 @@
-# 🚀 Getting started with Strapi
+# Eventum — backend для лендинга ивент-индустрии 
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+**Admin Strapi:** [railwayapp-strapi-production-48cf.up.railway.app](https://railwayapp-strapi-production-48cf.up.railway.app/admin/)
 
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+Frontend (Next.js): [eventum-frontend-git](https://github.com/ImbaSharikAnirum/eventum-frontend?tab=readme-ov-file)
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Демо-проект лендинга для **ивент-индустрии** с динамическим управлением контентом через **Strapi CMS**.
+
+Проект выполнен в рамках **тестового задания на позицию Middle+ Fullstack разработчика**  
+с фокусом на:
+- семантику и архитектуру кода
+- UX-логику и интерактивность
+- визуальную составляющую и анимации
+- удобную и масштабируемую Strapi-админку
+
+---
+
+### Backend
+- **Strapi 5.11.3**
+- Bootstrap-инициализация данных при первом запуске
+- Полностью настроенные Public API-права
+- База данных: PostgreSQL на Railway
+- Хранение медиа: Cloudinary
+
+---
+
+## Архитектура Strapi
+
+### Single Types
+- `homepage` — Hero-секция и SEO
+- `about` — описание компании и статистика
+- `contact-info` — контакты, соцсети, координаты карты, опции формы
+- `footer` — структура футера и ссылки
+
+### Collection Types
+- `project` — проекты / кейсы с галереями и страницами-углублениями
+- `partner` — партнёры и клиенты
+- `contact-submission` — заявки из формы обратной связи со статусами
+
+### Компоненты
+Переиспользуемые shared-компоненты:
+- статистика
+- соцсети
+- опции услуг
+- группы ссылок футера
+
+**Весь контент управляется через Strapi без изменений кода.**
+
+---
