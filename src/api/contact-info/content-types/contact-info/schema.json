@@ -26,11 +26,15 @@
     },
     "latitude": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "precision": 10,
+      "scale": 7
     },
     "longitude": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "precision": 10,
+      "scale": 7
     },
     "socialLinks": {
       "type": "component",
