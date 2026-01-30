@@ -27,14 +27,12 @@
     "latitude": {
       "type": "decimal",
       "required": true,
-      "precision": 10,
-      "scale": 7
+      "args": [10, 7]
     },
     "longitude": {
       "type": "decimal",
       "required": true,
-      "precision": 10,
-      "scale": 7
+      "args": [10, 7]
     },
     "socialLinks": {
       "type": "component",
