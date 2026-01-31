@@ -4,6 +4,12 @@
 
 Frontend (Next.js): [eventum-frontend-git](https://github.com/ImbaSharikAnirum/eventum-frontend?tab=readme-ov-file)
 
+## Скриншоты
+
+![Screenshot 1](screenshots/screen1.webp)
+![Screenshot 2](screenshots/screen2.webp)
+![Screenshot 3](screenshots/screen3.webp)
+
 ---
 
 Демо-проект лендинга для **ивент-индустрии** с динамическим управлением контентом через **Strapi CMS**.
